@@ -12,3 +12,26 @@ footer.page-footer {
   padding-top: 0;
   text-align: right;
 }
+
+#logout-btn {
+  height: 64px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+  padding: 0 15px;
+}
+
+#logout-btn:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* label text color */
+form > p > input {
+  color: white;
+}
+/* label underline focus color */
+form > p > input:focus {
+  border-bottom: 1px solid #1b5e20 !important;
+  box-shadow: 0 1px 0 0 #1b5e20 !important;
+}
